@@ -18,10 +18,6 @@ p {
     font-size: 16px;
 }
 
-.flex-container{
-    display: flex;
-}
-
 /** Header **/
 header {
     padding: 20px;
@@ -77,12 +73,15 @@ header {
     margin-left: 25px;
 }
 
+/** Flex Container section for child section and aside **/
+.flex-container{
+    display: flex;
+}
+
 /** Contents **/
 .contents {
     width: 75%;
     display: inline-block;
-    /*margin-left: 20px;*/
-    
 }
 
 /** Content **/
@@ -121,7 +120,6 @@ header {
 
 /** Benefit **/
 .benefit {
-    /*margin-bottom: 32px;*/
     color: #ffffff;
     overflow: auto;
 }
